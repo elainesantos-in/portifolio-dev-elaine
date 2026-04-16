@@ -7,7 +7,7 @@ export default function About() {
       <div className="container about__inner">
         <div className="about__photo">
           <img
-            src="/public/perfil-elaine.jpeg"
+            src="/perfil-elaine.jpeg"
             alt="Elaine - Desenvolvedora Full Stack"
           />
         </div>
