@@ -3,11 +3,10 @@
 }
 
 .about__inner {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
 }
 
 .about__content {
@@ -94,13 +93,14 @@
   border-radius: 14px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   filter: blur(28px);
-  opacity: 0.45;
+  opacity: 0.2;
   z-index: 0;
 }
 
 .about__photo img {
   position: relative;
-  width: 280px;
+  width: 100%;
+  max-width: 460px;
   border-radius: 10px;
   border: 1px solid var(--border);
   box-shadow: 0 16px 40px rgba(124, 58, 237, 0.25);
