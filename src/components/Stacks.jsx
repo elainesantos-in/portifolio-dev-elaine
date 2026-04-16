@@ -1,9 +1,9 @@
 import {
-  FaReact, FaNodeJs, FaAngular, FaDocker, FaGitAlt,
+  FaReact, FaNodeJs, FaAngular, FaDocker, FaGitAlt, FaJava,
 } from 'react-icons/fa'
 import {
   SiNextdotjs, SiNestjs, SiTypeorm, SiPostgresql,
-  SiMysql, SiTypescript, SiJavascript,
+  SiMysql, SiTypescript, SiJavascript, SiClaude, SiHibernate,
 } from 'react-icons/si'
 import './Stacks.css'
 
@@ -15,11 +15,14 @@ const stacks = [
   { icon: <SiNestjs />,     name: 'NestJS',     color: '#E0234E' },
   { icon: <SiTypescript />, name: 'TypeScript', color: '#3178C6' },
   { icon: <SiJavascript />, name: 'JavaScript', color: '#F7DF1E' },
+  { icon: <FaJava />,       name: 'Java',       color: '#EA2D2E' },
+  { icon: <SiHibernate />,  name: 'JPA',        color: '#59666C' },
   { icon: <SiTypeorm />,    name: 'TypeORM',    color: '#FE0902' },
   { icon: <SiPostgresql />, name: 'PostgreSQL', color: '#336791' },
   { icon: <SiMysql />,      name: 'MySQL',      color: '#00758F' },
   { icon: <FaDocker />,     name: 'Docker',     color: '#2496ED' },
   { icon: <FaGitAlt />,     name: 'Git',        color: '#F05032' },
+  { icon: <SiClaude />,     name: 'Claude',     color: '#CC785C' },
 ]
 
 export default function Stacks() {
