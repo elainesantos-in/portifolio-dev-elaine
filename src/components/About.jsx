@@ -17,7 +17,7 @@ export default function About() {
           <h1 className="about__title">Sobre Mim</h1>
 
           <p>
-            Meu nome é Elaine, tenho 29 anos e sou formada em Designer Gráfico. Atualmente, curso Engenharia de Software e estou me especializando como Desenvolvedora Full Stack, com foco em Java e JavaScript.
+            Meu nome é Elaine, tenho 29 anos e sou formada em Designer Gráfico. Atualmente, curso Engenharia de Software e estou me especializando como Desenvolvedora Full Stack, com foco em React e Node.js.
           </p>
           <p>
             Tenho experiência na manutenção de sistemas utilizando Java e AngularJS, o que fortaleceu minha base tanto em backend quanto em frontend. Minha formação em Design também contribui para a criação de interfaces mais intuitivas, com conhecimentos em UI Design e ferramentas como Figma.
