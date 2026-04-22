@@ -20,6 +20,8 @@
   letter-spacing: 1.5px;
   margin-bottom: 12px;
   text-transform: uppercase;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .about__title {
@@ -112,7 +114,7 @@
     padding: 60px 0 40px;
   }
   .about__inner {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 40px;
     text-align: center;
   }
@@ -149,5 +151,9 @@
   }
   .about__content p {
     font-size: 14px;
+  }
+  .about__eyebrow {
+    font-size: 11px;
+    letter-spacing: 1px;
   }
 }
