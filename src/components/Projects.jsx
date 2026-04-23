@@ -39,9 +39,9 @@ const projects = [
     skillsTitle: 'Habilidades desenvolvidas:',
     skills: [
       'Gerenciamento de Agentes de IA, criação de Skills, Agentes e orquestração de múltiplos agentes para tarefas específicas',
-      'Engenharia de Prompts, escrita de prompts claros, contextualizados e eficientes',
+      'Escrita de prompts claros, contextualizados e eficientes',
       'Deploy em Produção, configuração da Vercel com integração contínua via GitHub',
-      'Indexação no Google, uso do Search Console para monitorar impressões, CTR e posição média',
+      'Indexação no de paginas no Google, uso do Search Console para monitorar impressões, CTR e posição média',
     ],
     stack: [
       'Stack técnica: React, TypeScript, Tailwind CSS',
