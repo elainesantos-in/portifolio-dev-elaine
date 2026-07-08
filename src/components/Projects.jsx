@@ -13,7 +13,7 @@ const projects = [
       'CRUD completo de despesas, categorias e formas de pagamento',
       'Sistema de parcelas automáticas (3x, 6x, 12x)',
       'Relatórios dinâmicos por período e forma de pagamento e status',
-      'Interface responsiva com navegação por abas',
+      'Navegação por abas',
     ],
     stack: [
       'Frontend: Next.js, React, Tailwind CSS',
@@ -28,7 +28,7 @@ const projects = [
       '/mifoturna-img3.png',
       '/mifoturna-img4.png',
     ],
-    links: { github: 'https://github.com/elainesantos-in/mi-fortuna-v3', site: '#', figma: 'https://www.figma.com/design/DJlFhC5Ig8KUR7qvFbnBfC/Finan%C3%A7as?node-id=211-3&t=GSBl17IsgiMoIA5W-1' },
+    links: { github: 'https://github.com/elainesantos-in/mi-fortuna-v3', site: 'https://mi-fortuna-v3.vercel.app/', figma: 'https://www.figma.com/design/DJlFhC5Ig8KUR7qvFbnBfC/Finan%C3%A7as?node-id=211-3&t=GSBl17IsgiMoIA5W-1' },
   },
   {
     title: 'Pingo Utilitários',
@@ -66,7 +66,13 @@ export default function Projects() {
         {projects.map((p, idx) => (
           <article key={p.title} className="project" style={{ '--delay': `${idx * 0.1}s` }}>
             <div className="project__thumb">
-              <Carousel images={p.images} alt={p.title} interval={2000} />
+              {p.links.site ? (
+                <a href={p.links.site} aria-label={`Abrir ${p.title}`} target="_blank" rel="noopener noreferrer">
+                  <Carousel images={p.images} alt={p.title} interval={2000} />
+                </a>
+              ) : (
+                <Carousel images={p.images} alt={p.title} interval={2000} />
+              )}
               <div className="project__links">
                 {p.links.github && (
                   <a href={p.links.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
